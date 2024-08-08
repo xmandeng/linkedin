@@ -74,7 +74,7 @@ For any other issues, please open an issue in the GitHub repository.
 
 ## Contributing
 
-Please read the CONTRIBUTING.md file (if available) for details on our code of conduct and the process for submitting pull requests.
+Please read the [CONTRIBUTING](CONTRIBUTING.md) file for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 
