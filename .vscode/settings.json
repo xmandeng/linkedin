@@ -1,0 +1,46 @@
+{
+  "editor.formatOnSave": true,
+  "files.eol": "\n",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "git.autofetch": true,
+  "jupyter.askForKernelRestart": false,
+  "python.languageServer": "Pylance",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "python.defaultInterpreterPath": "${HOME}/.pyenv/versions/3.11.4/envs/linkedin/bin/python",
+  "python.envFile": "${workspaceFolder}/.vscode/.env",
+  "redhat.telemetry.enabled": false,
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter"
+    // "editor.rulers": [88]
+  },
+  "autoDocstring.docstringFormat": "numpy",
+  "autoDocstring.generateDocstringOnEnter": true,
+  "autoDocstring.guessTypes": true,
+  "autoDocstring.startOnNewLine": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.completeFunctionParens": true,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "python.analysis.autoSearchPaths": false,
+  "debug.showBreakpointsInOverviewRuler": true,
+  "window.title": "${activeEditorShort}${separator}${rootName}${separator}${profileName}",
+  "python.testing.pytestEnabled": true,
+  "python.globalModuleInstallation": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": ["tests"],
+  "explorer.confirmDragAndDrop": false,
+  "window.zoomLevel": 0,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "python.analysis.extraPaths": ["${workspaceFolder}/src"],
+  "black-formatter.args": ["--line-length", "88"],
+  "isort.args": ["--profile", "black"],
+  "flake8.args": ["--max-line-length=88", "--extend-ignore=E203,W503"]
+}
