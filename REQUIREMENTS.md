@@ -1,4 +1,3 @@
-
 # Business Requirement Document (BRD)
 
 ## 1. Introduction
@@ -34,6 +33,7 @@
 - The MVP shall be developed using a web scraping tool compatible with LinkedIn's data structure (e.g., Python with Beautiful Soup or Scrapy).
 - The HTML report generation shall be handled using a lightweight HTML templating system.
 - The internal web server shall be set up using a simple framework such as Flask or Django (if using Python).
+- **The system shall integrate with Autogen, utilizing API calls to the latest models from ChatGPT (OpenAI) and Anthropic to enhance development and processing capabilities.**
 
 ### System Performance
 - The system shall be capable of scraping up to 50 job listings within a time frame of 5-10 minutes per search.
@@ -49,12 +49,12 @@
 
 ## 4. KPIs (Key Performance Indicators)
 
-| KPI Name               | Description                                                   | Calculation Method                                                 |
-|------------------------|---------------------------------------------------------------|--------------------------------------------------------------------|
-| Scraping Success Rate   | The percentage of successful job scrapes compared to the total attempts | (Number of successful scrapes / Total scrapes) * 100                |
-| Report Generation Time  | The average time taken to generate the HTML report after scraping | Total report generation time / Number of reports generated          |
-| User Review Time        | The average time taken by the human reviewer to assess the report | Total review time / Number of reports reviewed                      |
-| System Uptime           | The percentage of time the web server is operational          | (Uptime hours / Total hours in a period) * 100                      |
+| KPI Name               | Description                                                             | Calculation Method                                         |
+| ---------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------- |
+| Scraping Success Rate  | The percentage of successful job scrapes compared to the total attempts | (Number of successful scrapes / Total scrapes) * 100       |
+| Report Generation Time | The average time taken to generate the HTML report after scraping       | Total report generation time / Number of reports generated |
+| User Review Time       | The average time taken by the human reviewer to assess the report       | Total review time / Number of reports reviewed             |
+| System Uptime          | The percentage of time the web server is operational                    | (Uptime hours / Total hours in a period) * 100             |
 
 ## 5. Acceptance Criteria
 
