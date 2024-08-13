@@ -12,6 +12,8 @@ pyautogen = "^0.2.33"
 requests = "^2.32.3"
 selenium = "^4.23.1"
 beautifulsoup4 = "^4.12.3"
+graphviz = "^0.20.3"
+yelp-gprof2dot = "^1.2.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"
